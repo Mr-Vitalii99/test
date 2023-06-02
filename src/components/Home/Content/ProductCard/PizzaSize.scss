@@ -1,0 +1,40 @@
+@import '../../../../utils/variables';
+
+.sizes-list {
+    display: flex;
+    column-gap: 20px;
+    margin-bottom: 10px;
+
+    &__item {
+        padding: 2px 7px;
+        border: 1px solid $primary-accent-color;
+        color: $primary-accent-color;
+        cursor: pointer;
+
+        &.active {
+            background-color: $secondary-accent-color;
+            color: $secondary-bg-color;
+        }
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .sizes-list {
+        display: flex;
+        justify-content: center;
+        column-gap: 30px;
+        margin-bottom: 15px;
+
+        &__item {
+            padding: 5px 10px;
+            border: 1px solid $primary-accent-color;
+            color: $primary-accent-color;
+            cursor: pointer;
+
+            &.active {
+                background-color: $secondary-accent-color;
+                color: $secondary-bg-color;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import '../../../utils/variables';
+
+.product-modal {
+    text-align: center;
+
+
+    &__title {
+        margin-bottom: 20px;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.2;
+        color: $primary-accent-color;
+    }
+
+    &__text {
+        margin-bottom: 8px;
+    }
+    &__bold {
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+
+    &__img {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+}

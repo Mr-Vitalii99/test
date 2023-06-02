@@ -1,0 +1,61 @@
+@import '../../../../utils/variables';
+
+
+.category-card {
+    position: relative;
+
+    &__img {
+        height: 100%;
+    }
+
+    &__text {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        margin: 10px 10px;
+        font-weight: 500;
+        font-size: 18px;
+        color: $secondary-bg-color;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .category-card {
+
+        &:nth-child(6) {
+            grid-column: 1/3;
+            // max-height: 250px;
+        }
+
+        &:nth-child(5),
+        &:nth-child(8),
+        &:nth-child(7),
+        &:nth-child(9),
+            {
+            display: none;
+        }
+
+        &__img {
+            height: 100%;
+        }
+
+        &__text {
+            top: 80%;
+            color: $secondary-bg-color;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1171px) {
+
+    .category-card {
+
+        &:nth-child(6) {
+            grid-column: 2/4;
+            max-height: 290px;
+        }
+    }
+}

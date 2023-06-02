@@ -1,0 +1,28 @@
+.express {
+    padding: 10px;
+
+    &__title {
+        font-size: 26px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        letter-spacing: 0.5px;
+    }
+
+    &__list-title {
+        margin-bottom: 10px;
+        font-weight: normal;
+    }
+
+    & ul {
+        margin-bottom: 10px;
+    }
+
+    & ul li {
+        margin-left: 25px;
+        list-style-type: disc;
+    }
+
+    &__subtitle {
+        margin-bottom: 10px;
+    }
+}

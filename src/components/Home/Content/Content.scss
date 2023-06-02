@@ -1,0 +1,50 @@
+@import '../../../utils/variables';
+
+.home__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: $primary-bg-color;
+}
+
+.container {
+    padding: 20px 10px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .home__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 61%;
+        min-height: 100vh;
+        background-color: $primary-bg-color;
+    }
+
+    .container {
+        max-width: 950px;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .home__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 65%;
+        min-height: 100vh;
+        background-color: $primary-bg-color;
+    }
+
+    .container {
+        max-width: 950px;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+}

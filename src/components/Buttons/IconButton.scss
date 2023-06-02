@@ -1,0 +1,16 @@
+@import '../../utils/variables';
+
+.icon-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 2px;
+    border: 0;
+    border-radius: 50%;
+    background-color: $secondary-accent-color;
+    color: $secondary-bg-color;
+    font: inherit;
+    cursor: pointer;
+}

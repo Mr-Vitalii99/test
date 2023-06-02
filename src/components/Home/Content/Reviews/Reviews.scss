@@ -1,0 +1,90 @@
+@import '../../../../utils/variables';
+
+.reviews {
+
+    &__header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 30px;
+        margin-bottom: 10px;
+    }
+
+    &__title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.2;
+        color: $accent-text-color;
+    }
+
+    &__button {
+        width: 180px;
+        height: 36px;
+        background-color: $accent-text-color;
+        border-radius: 5px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        color: $primary-bg-color;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        margin-top: 28px;
+    }
+
+    &__item {
+        padding: 10px;
+        width: 100%;
+        max-width: 500px;
+        border-radius: 10px;
+        background-color: $secondary-bg-color;
+    }
+
+    &__item-header {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__item-title {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 30px;
+        color: $accent-text-color;
+    }
+
+    &__item-date {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: $secondary-text-color;
+    }
+
+    &__item-text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .reviews {
+
+        &__header {
+            justify-content: space-between;
+            column-gap: 0px;
+        }
+
+        &__item {
+            max-width: 900px;
+        }
+    }
+}

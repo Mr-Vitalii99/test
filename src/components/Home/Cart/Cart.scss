@@ -1,0 +1,276 @@
+@import '../../../utils/variables';
+@import '../../../utils/placeholder';
+
+
+.cart {
+
+    &__container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        text-align: center;
+        background: $primary-bg-color;
+        border-radius: 5px;
+
+    }
+
+    &__title {
+        padding: 0;
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+        color: $secondary-text-color;
+
+        &:first-of-type {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__free {
+        padding: 10px 12px;
+        margin-bottom: 15px;
+        background: $primary-accent-color;
+        border-radius: 0px 0px 5px 5px;
+
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        color: $primary-bg-color;
+    }
+
+    &__card-container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    &__card-container .cart__title {
+        background-color: $primary-bg-color;
+        text-align: center;
+    }
+
+    &__card-list {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+
+    }
+
+    &__card-item {
+        position: relative;
+        display: flex;
+        column-gap: 5px;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        background-color: $secondary-bg-color;
+    }
+
+    &__card-img {
+        width: 90px;
+        height: 80px;
+    }
+
+    &__card-title {
+        margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    &__card-size {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+
+    &__card-pay {
+        display: flex;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    &__card-price {
+        margin-left: 20px;
+    }
+
+    &__card-quantity {
+        display: flex;
+        align-items: center;
+    }
+
+    &__card-quantity-count {
+        margin: 0 7px;
+    }
+
+    &__card-delete {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        color: $secondary-accent-color;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    &__bottom-price {
+        display: none;
+    }
+
+    &__bottom-button {
+        @extend %button;
+        width: 100%;
+        padding: 13px 5px;
+        font-size: 18px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+        color: $primary-bg-color;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .cart {
+
+        &__container {
+            padding: 12px 0 7px 0;
+        }
+
+        &__title {
+            font-size: 20px;
+        }
+
+        &__text {
+            font-size: 16px;
+        }
+
+        &__card-container {
+            padding: 0px;
+        }
+
+        &__card-list {
+            min-height: 334px;
+            max-height: 400px;
+            overflow: auto;
+        }
+
+        &__card-item {
+            padding: 0;
+            padding-top: 20px;
+        }
+
+        &__card-img {
+            width: 60px;
+            height: 60px;
+        }
+
+        &__card-title {
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+
+        &__card-pay {
+            align-items: center;
+            font-size: 14px;
+        }
+
+        &__card-price {
+            margin-left: 7px;
+            font-size: 14px;
+        }
+
+
+        &__card-delete {
+            top: 2px;
+            right: 2px;
+        }
+
+        &__bottom {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__bottom-price {
+            display: block;
+            margin-right: 10px;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.2;
+        }
+
+        &__bottom-button {
+            padding: 5px 5px;
+        }
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .cart {
+
+
+        &__title {
+            font-size: 24px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
+
+        &__free {
+            padding: 12px 20px;
+        }
+
+        &__card-item {
+            padding-top: 0px;
+            padding-right: 10px;
+            margin-right: auto;
+        }
+
+        &__card-title {
+            font-size: 16px;
+        }
+
+        &__card-pay {
+            font-size: 18px;
+        }
+
+        &__card-price {
+            margin-left: 10px;
+        }
+
+        &__card-delete {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            color: $secondary-accent-color;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        &__bottom {
+            display: flex;
+            align-items: center;
+        }
+
+        &__bottom-price {
+            margin-right: 10px;
+            font-size: 16px;
+            line-height: 1.2;
+        }
+
+        &__bottom-button {
+            padding: 10px;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.sidebar-right {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .sidebar-right {
+        display: block;
+        width: 27%;
+        padding: 20px 5px;
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .sidebar-right {
+        width: 25%;
+        padding: 20px 15px;
+    }
+}

@@ -1,0 +1,64 @@
+@import "../../../../utils/variables";
+
+
+.products {
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &-left {
+            display: flex;
+            column-gap: 10px;
+            align-items: center;
+        }
+
+        &-title {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 1.2;
+        }
+    }
+
+    &__cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .products {
+
+        &__header {
+
+            &-left {
+                column-gap: 20px;
+            }
+
+            &-title {
+                font-size: 36px;
+            }
+        }
+
+        &__cards-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px 20px;
+            align-items: stretch;
+        }
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .products {
+
+        &__cards-container {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}

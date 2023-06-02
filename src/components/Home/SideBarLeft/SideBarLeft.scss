@@ -1,0 +1,101 @@
+@import '../../../utils/variables';
+
+.sidebar-left {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .sidebar-left {
+        width: 12%;
+        padding: 0 1% 0 1%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 25px;
+
+        &__top {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid grey;
+        }
+
+        &__title {
+            font-family: 'Nexa';
+            font-weight: 300;
+            font-size: 18px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 25px;
+        }
+
+        &__list-item {
+            display: flex;
+            column-gap: 5px;
+            align-items: center;
+
+            & svg {
+                display: none;
+            }
+        }
+
+        &__list-link {
+            font-family: 'DIN Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.2;
+            color: $primary-text-color;
+            transition: .3s;
+
+            &:hover {
+                color: $primary-accent-color;
+                transition: .3s;
+            }
+
+            &.active {
+                color: $primary-accent-color;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 1171px) {
+    .sidebar-left {
+        width: 16%;
+        padding: 0 2% 0 4%;
+        row-gap: 32px;
+
+        &__top {
+            padding-bottom: 30px;
+        }
+
+        &__title {
+            font-size: 22px;
+        }
+
+        &__list {
+            row-gap: 32px;
+        }
+
+        &__list-item {
+            column-gap: 20px;
+
+            & svg {
+                display: block;
+                width: 25px;
+                height: 25px;
+            }
+        }
+
+        &__list-link {
+            font-size: 24px;
+        }
+    }
+}

@@ -1,0 +1,1510 @@
+{
+  "categories": [
+    {
+      "id": "1",
+      "name": "Піца",
+      "pic": "https://i.obozrevatel.com/food/recipemain/2020/2/4/pizza-foto3.jpg?size=424x424",
+      "category": "pizza"
+    },
+    {
+      "id": "2",
+      "name": "Сети",
+      "pic": "https://cheline.com.ua/wp-content/uploads/2021/12/sushi-1-e1639989146847.jpeg",
+      "category": "sets"
+    },
+    {
+      "id": "3",
+      "name": "WOK",
+      "pic": "https://lonciinpoklopci.si/wp-content/uploads/2020/04/KH431041-101.jpg?x56122",
+      "category": "wok"
+    },
+    {
+      "id": "4",
+      "name": "Роли",
+      "pic": "https://scontent.fiev22-2.fna.fbcdn.net/v/t1.6435-9/131942959_777674862830078_2588393446646425108_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=107&ccb=1-7&_nc_sid=9e2e56&_nc_ohc=TBKhoLbH348AX_iMPcI&_nc_ht=scontent.fiev22-2.fna&oh=00_AfBwcExnK2eGhlMwzMywWMmj1oe8i3bmRENuKGD-r6zPJg&oe=6499BD1F",
+      "category": "rolls"
+    },
+    {
+      "id": "5",
+      "name": "Суши",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+      "category": "sushi"
+    },
+    {
+      "id": "6",
+      "name": "Салати",
+      "pic": "https://img.freepik.com/premium-photo/caesar-salad-in-a-black-ceramic-plate-with-sauce-on-a-black-background-culinary-background-with-space-to-copy_166116-2369.jpg?w=740",
+      "category": "salad"
+    },
+    {
+      "id": "7",
+      "name": "Супи",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217804/ROMSEM/soup/Ramen_Chicken_lxx962.png",
+      "category": "soup"
+    },
+    {
+      "id": "8",
+      "name": "Корн Доги",
+      "pic": "https://iamafoodblog.b-cdn.net/wp-content/uploads/2021/05/korean-corn-dogs-3976-600x401.webp",
+      "category": "corndog"
+    },
+    {
+      "id": "9",
+      "name": "Нарої",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237891/ROMSEM/drinks/1cocacola_pwctkn.png",
+      "category": "drinks"
+    }
+  ],
+  "sets": [
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117164/ROMSEM/sets/%D0%A1%D0%B0%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD_%D1%81%D0%B5%D1%82_ix2lpq.png",
+      "name": "Саломон сет",
+      "info": "1050 грам, 30 шматочків",
+      "price": "1500 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "2",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117164/ROMSEM/sets/%D0%A1%D0%B5%D1%82_5_mm179b.png",
+      "name": "5 Філадельфій",
+      "info": "1120 грам 40 шматочків",
+      "price": "1499 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117164/ROMSEM/sets/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_%D0%B8_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D1%8C_%D1%81%D0%B5%D1%82_uvpmgc.png",
+      "name": "Філадельфія та лосось сет",
+      "info": "1260 грам 36 шматочків",
+      "price": "1499 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117164/ROMSEM/sets/%D0%A1%D0%B5%D1%82_6_fj3jzr.png",
+      "name": "6 Філадельфій",
+      "info": "1320 грам 46 шматочків",
+      "price": "1559 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%A2%D0%BE%D0%BF%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%B5%D1%82_quykhv.png",
+      "name": "Топовий сет",
+      "info": "1020 грам 40 шматочків",
+      "price": "1519 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "6",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%9A%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%D0%B4%D0%B7%D0%B5_%D1%81%D0%B5%D1%82_tvgcie.png",
+      "name": "Камікадзе сет",
+      "info": "1200 грам 52 шматочки",
+      "price": "1469 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "7",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%A1%D0%B5%D1%82_4_tanqyf.png",
+      "name": "4 Філадельфії",
+      "info": "1100 грам 32 шматочки",
+      "price": "1559 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "8",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_LOVE_%D1%81%D0%B5%D1%82_qw1f0j.png",
+      "name": "Філадельфія LOVE сет",
+      "info": "1000 грам 40 шматочків",
+      "price": "1479 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "9",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%AF%D0%BA%D1%83%D0%B4%D0%B7%D0%B0_%D1%81%D0%B5%D1%82_nim5mv.png",
+      "name": "Якудза сет",
+      "info": "1270 грам 50 шматочків",
+      "price": "1499 грн.",
+      "category": "sets"
+    }
+  ],
+  "pizza": [
+    {
+      "id": "1",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+      "name": "Вегетаріанська",
+      "info": "Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1500 грн.",
+      "priceSmall": "1500 грн.",
+      "priceMiddle": "1700 грн.",
+      "priceLarge": "1900 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "2",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "name": "Чеддар Дабл Бургер",
+      "info": "Coys 1000 Островів, Помідори, Сир Моцарелла, Яловичина, Чеддар",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1499 грн.",
+      "priceSmall": "1499 грн.",
+      "priceMiddle": "1800 грн.",
+      "priceLarge": "2000 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "3",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+      "name": "Класик Пепероні",
+      "info": "Пепероні, Екстра Моцарелла",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1499 грн.",
+      "priceSmall": "1499 грн.",
+      "priceMiddle": "1800 грн.",
+      "priceLarge": "2000 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "4",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+      "name": "Хот енд Спайсі",
+      "info": "Яловядина, Помідори, Зелений Перець, Перець Халапеньє, Сир Моцарелла",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1559 грн.",
+      "priceSmall": "1559 грн.",
+      "priceMiddle": "1950 грн.",
+      "priceLarge": "2200 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "5",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+      "name": "Гостра Вегетаріанська",
+      "info": "Перець Халапеньє, Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1519 грн.",
+      "priceSmall": "1519 грн.",
+      "priceMiddle": "1850 грн.",
+      "priceLarge": "2100 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "6",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+      "name": "Мексиканська",
+      "info": "Куриця Гриль, Помідори, Свіжі Гриби, Зелений Перець, Перець Халапеньє, Сир Моцарелла",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1469 грн.",
+      "priceSmall": "1469 грн.",
+      "priceMiddle": "1650 грн.",
+      "priceLarge": "1800 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "7",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+      "name": "Чеддар Чікен Клаб",
+      "info": "Куриця гриль, Помідори, Шинка, Моцарелла, Чеддар, Соус Ранч",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1559 грн.",
+      "priceSmall": "1559 грн.",
+      "priceMiddle": "1880 грн.",
+      "priceLarge": "2150 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "8",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+      "name": "Маргарита",
+      "info": "Помідори, Орегано, Сир Моцарелла",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1479 грн.",
+      "priceSmall": "1479 грн.",
+      "priceMiddle": "1750 грн.",
+      "priceLarge": "2000 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "9",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+      "name": "Подвійний Чізбургер",
+      "info": "Яловичина, Солоні Огірки, Помідори, Сир Моцарелла, Coys",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1499 грн.",
+      "priceSmall": "1499 грн.",
+      "priceMiddle": "1650 грн.",
+      "priceLarge": "1900 грн.",
+      "category": "pizza"
+    }
+  ],
+  "wok": [
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211460/ROMSEM/wok/Vegetable_stir_fry_rjx6xu.png",
+      "name": "Овочеве жарке",
+      "info": "Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+      "price": "2500 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "2",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+      "name": "Тайська подушка",
+      "info": "Рикова локшина, креветки, арахіс, яєчня, паростки квасолі",
+      "price": "2499 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671213585/ROMSEM/wok/%D0%A7%D0%BE%D1%83_%D0%9C%D0%B5%D0%B9%D0%BD_kbxnfu.jpg",
+      "name": "Смажений рис",
+      "info": "Pіc, яйця, овочі, морепродукти",
+      "price": "2499 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671213585/ROMSEM/wok/%D0%A7%D0%BE%D1%83_%D0%9C%D0%B5%D0%B9%D0%BD_kbxnfu.jpg",
+      "name": "Чоу Мейн",
+      "info": "Смажена локшина, овочі, тофу",
+      "price": "2559 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211460/ROMSEM/wok/Vegetable_stir_fry_rjx6xu.png",
+      "name": "Овочеве жарке",
+      "info": "Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+      "price": "2500 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "6",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+      "name": "Тайська подушка",
+      "info": "Рикова локшина, креветки, арахіс, яєчня, паростки квасолі",
+      "price": "2499 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "7",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+      "name": "Смажений рис",
+      "info": "Pіc, яйця, овочі, морепродукти",
+      "price": "2499 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "8",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671213585/ROMSEM/wok/%D0%A7%D0%BE%D1%83_%D0%9C%D0%B5%D0%B9%D0%BD_kbxnfu.jpg",
+      "name": "Чоу Мейн",
+      "info": "Смажена локшина, овочі, тофу",
+      "price": "2559 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "9",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211460/ROMSEM/wok/Vegetable_stir_fry_rjx6xu.png",
+      "name": "Овочеве жарке",
+      "info": "Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+      "price": "2500 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "10",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+      "name": "Тайська подушка",
+      "info": "Рикова локшина, креветки, арахіс, яєчня, паростки квасолі",
+      "price": "2499 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "12",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211460/ROMSEM/wok/Vegetable_stir_fry_rjx6xu.png",
+      "name": "Смажений рис",
+      "info": "Pіc, яйця, овочі, морепродукти",
+      "price": "2499 грн.",
+      "category": "wok"
+    },
+    {
+      "id": "13",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671213585/ROMSEM/wok/%D0%A7%D0%BE%D1%83_%D0%9C%D0%B5%D0%B9%D0%BD_kbxnfu.jpg",
+      "name": "Чоу Мейн",
+      "info": "Смажена локшина, овочі, тофу",
+      "price": "2559 грн.",
+      "category": "wok"
+    }
+  ],
+  "rolls": [
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+      "name": "Авокадо Макі",
+      "info": "8 шматочків",
+      "price": "150 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "2",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+      "name": "Лосось Хруст",
+      "info": "8 шматочків",
+      "price": "200 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Червоний дракон",
+      "info": "8 шматочків",
+      "price": "140 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+      "name": "Крабові Роли",
+      "info": "8 шматочків",
+      "price": "155 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+      "name": "Банзай",
+      "info": "8 шматочків",
+      "price": "151 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "6",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Аригато",
+      "info": "8 шматочків",
+      "price": "146 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "7",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Каліфорнія",
+      "info": "8 шматочків",
+      "price": "155 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "8",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+      "name": "Аляска",
+      "info": "8 шматочків",
+      "price": "147 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "9",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Унаги",
+      "info": "8 шматочків",
+      "price": "149 грн.",
+      "category": "rolls"
+    }
+  ],
+  "sushi": [
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+      "name": "Авокадо Макі",
+      "info": "8 шматочків",
+      "price": "150 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "2",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+      "name": "Лосось Хруст",
+      "info": "8 шматочків",
+      "price": "200 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Червоний дракон",
+      "info": "8 шматочків",
+      "price": "140 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+      "name": "Крабові Роли",
+      "info": "8 шматочків",
+      "price": "155 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+      "name": "Банзай",
+      "info": "8 шматочків",
+      "price": "151 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "6",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Аригато",
+      "info": "8 шматочків",
+      "price": "146 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "7",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Каліфорнія",
+      "info": "8 шматочків",
+      "price": "155 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "8",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+      "name": "Аляска",
+      "info": "8 шматочків",
+      "price": "147 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "9",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Унаги",
+      "info": "8 шматочків",
+      "price": "149 грн.",
+      "category": "sushi"
+    }
+  ],
+  "salad": [
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Greek_Salad_ghaslj.jpg",
+      "name": "Салат Цезар",
+      "info": "Куриця Гриль, Салат Айсберг, Сухарі, Помідори, Пармесан, Соус Цезар",
+      "price": "1500 грн.",
+      "category": "salad"
+    },
+    {
+      "id": "2",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Tuna_Salad_no_tomato_Azer_158_1_cq98xx.jpg",
+      "name": "Грецький Салат",
+      "info": "Огірки, Помідори, Салат Айсберг, Чорні Оливки, Сир Фета, Італійський Соус",
+      "price": "2000 грн.",
+      "category": "salad"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Garden_Slad_pxmmzx.jpg",
+      "name": "Овочевий Салат",
+      "info": "Огірки, Помідори, Салат Айсберг, Чорні Оливки, Зелений Перець, Італійський Соус",
+      "price": "1400 грн.",
+      "category": "salad"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Caesar_Salad_g9awfm.jpg",
+      "name": "Тунцовий Салат",
+      "info": "Тунець, Салат Айберг, Чорні Оливки, Кукурудза, Огірки, Італійський Соус",
+      "price": "1550 грн.",
+      "category": "salad"
+    }
+  ],
+  "soup": [
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217804/ROMSEM/soup/Ramen_Chicken_lxx962.png",
+      "name": "Рамен Курча",
+      "info": "Гриби, локшина, курка, зелень, приправи, гострі соус, яйце",
+      "price": "1500 грн.",
+      "category": "soup"
+    },
+    {
+      "id": "2",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217804/ROMSEM/soup/Tom_Yum_-_Chicken_twgypg.png",
+      "name": "Том Ям - Курча",
+      "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, курка",
+      "price": "2000 грн.",
+      "category": "soup"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217805/ROMSEM/soup/Tom_Yum_-_Salmon_smnc5g.png",
+      "name": "Том Ям - Лосось",
+      "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, лосось",
+      "price": "1400 грн.",
+      "category": "soup"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217805/ROMSEM/soup/Tom_Yum_-_Seafood_lqhmdr.png",
+      "name": "Том Ям - Морепродукти",
+      "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, морепродукти",
+      "price": "1550 грн.",
+      "category": "soup"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217805/ROMSEM/soup/Tom_Yum_-_Seafood_lqhmdr.png",
+      "name": "Том Ям - Морепродукти",
+      "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, морепродукти",
+      "price": "1550 грн.",
+      "category": "soup"
+    }
+  ],
+  "corn": [
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+      "name": "Корн дог",
+      "info": "5 шматочків",
+      "price": "500 грн.",
+      "category": "corn"
+    },
+    {
+      "id": "2",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+      "name": "Корн дог",
+      "info": "5 шматочків",
+      "price": "500 грн.",
+      "category": "corn"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+      "name": "Корн дог",
+      "info": "5 шматочків",
+      "price": "500 грн.",
+      "category": "corn"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+      "name": "Корн дог",
+      "info": "5 шматочків",
+      "price": "500 грн.",
+      "category": "corn"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+      "name": "Корн дог",
+      "info": "5 шматочків",
+      "price": "500 грн.",
+      "category": "corn"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237891/ROMSEM/drinks/1cocacola_pwctkn.png",
+      "name": "Кока Кола",
+      "info": "500мл",
+      "price": "150 грн.",
+      "category": "drinks"
+    },
+    {
+      "id": "2",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237888/ROMSEM/drinks/1Sprite_gemanb.png",
+      "name": "Срайт",
+      "info": "500мл",
+      "price": "150 грн.",
+      "category": "drinks"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237889/ROMSEM/drinks/1Cappi_le1rgp.png",
+      "name": "Натуральні Соки - Cappy",
+      "info": "500мл",
+      "price": "150 грн.",
+      "category": "drinks"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237885/ROMSEM/drinks/1Fanta_se9ajr.png",
+      "name": "Фанта",
+      "info": "500мл",
+      "price": "150 грн.",
+      "category": "drinks"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237886/ROMSEM/drinks/1Fusetea_rbgubc.png",
+      "name": "Фьюз Ті",
+      "info": "500мл",
+      "price": "150 грн.",
+      "category": "drinks"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "user_date": "15.09.22",
+      "user_name": "Morgan Freeman",
+      "review": "Тут одні з найкращих піц, які я коли-небудь їв. Смаки так добре збалансовані, і кожен шматочок викликає справжнє задоволення."
+    },
+    {
+      "id": 2,
+      "user_date": "23.09.22",
+      "user_name": "Denzel Washington",
+      "review": "Цей ресторан справді вміє готувати смачну їжу. Страви сповнені унікальних смаків і текстур, і я не можу ними натішитися."
+    },
+    {
+      "id": 3,
+      "user_date": "04.10.22",
+      "user_name": "Alfredo Pacino",
+      "review": "Замовляємо у Вас більше 2-х років, були різні ситуації, але сервіс став кращим, суші смачніше. За доставку сьогодні на час, велике спасибі, точнісінько в хвилину в хвилину. Успіхів Вам і приємних бонусів нам)"
+    },
+    {
+      "id": 4,
+      "user_date": "10.10.22",
+      "user_name": "Leonardo DiCaprio",
+      "review": "Я зараз у раю їжі. Страви в цьому ресторані дуже смачні та ситні."
+    },
+    {
+      "id": 5,
+      "user_date": "15.10.22",
+      "user_name": "Brad Pitt",
+      "review": "Ваша доставка та ваші страви найкращі у Харкові!) завжди дуже смачно, вчасно, завжди ввічливі кур'єри та дівчата на телефоні"
+    },
+    {
+      "id": 6,
+      "user_date": "08.11.22",
+      "user_name": "Margot Robbie",
+      "review": "Я вражений якістю тутешньої їжі. Кожна страва приготована ідеально та наповнена смаком"
+    },
+    {
+      "id": 7,
+      "user_date": "13.12.22",
+      "user_name": "Jennifer Aniston",
+      "review": "Цей ресторан є прихованою перлиною. Їжа просто чудова, і я не можу повірити, наскільки вона доступна"
+    },
+    {
+      "id": 8,
+      "user_date": "25.12.22",
+      "user_name": "Руся Танк",
+      "review": "Дуже дуже смачно!!!!!"
+    },
+    {
+      "id": 9,
+      "user_date": "17.01.23",
+      "user_name": "Єгор Паукан",
+      "review": "Кухарі в цьому ресторані справжні митці. Їжа не тільки смачна, але й красиво оформлена"
+    },
+    {
+      "id": 10,
+      "user_date": "06.02.23",
+      "user_name": "Євген Космонавт",
+      "review": "Можу з упевненістю сказати, що це найкращий ресторан міста. Їжа незмінно смачна, а обслуговування на вищому рівні."
+    }
+  ],
+  "new": [
+    {
+      "id": "7",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%A1%D0%B5%D1%82_4_tanqyf.png",
+      "name": "4 Філадельфії",
+      "info": "1100 грам 32 шматочки",
+      "price": "1559 грн.",
+      "category": "sets"
+    },
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217805/ROMSEM/soup/Tom_Yum_-_Salmon_smnc5g.png",
+      "name": "Том Ям - Лосось",
+      "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, лосось",
+      "price": "1400 грн.",
+      "category": "soup"
+    },
+    {
+      "id": "5",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+      "name": "Гостра Вегетаріанська",
+      "info": "Перець Халапеньє, Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1519 грн.",
+      "priceSmall": "1519 грн.",
+      "priceMiddle": "1850 грн.",
+      "priceLarge": "2100 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "4",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+      "name": "Хот енд Спайсі",
+      "info": "Яловядина, Помідори, Зелений Перець, Перець Халапеньє, Сир Моцарелла",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1559 грн.",
+      "priceSmall": "1559 грн.",
+      "priceMiddle": "1950 грн.",
+      "priceLarge": "2200 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+      "name": "Корн дог",
+      "info": "5 шматочків",
+      "price": "500 грн.",
+      "category": "corn"
+    },
+    {
+      "id": "6",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+      "name": "Тайська подушка",
+      "info": "Рикова локшина, креветки, арахіс, яєчня, паростки квасолі",
+      "price": "2499 грн.",
+      "category": "wok"
+    }
+  ],
+  "popular": [
+    {
+      "id": "3",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Червоний дракон",
+      "info": "8 шматочків",
+      "price": "140 грн.",
+      "category": "sushi"
+    },
+    {
+      "id": "1",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217804/ROMSEM/soup/Ramen_Chicken_lxx962.png",
+      "name": "Рамен Курча",
+      "info": "Гриби, локшина, курка, зелень, приправи, гострі соус, яйце",
+      "price": "1500 грн.",
+      "category": "soup"
+    },
+    {
+      "id": "6",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+      "name": "Аригато",
+      "info": "8 шматочків",
+      "price": "146 грн.",
+      "category": "rolls"
+    },
+    {
+      "id": "2",
+      "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+      "name": "Чеддар Дабл Бургер",
+      "info": "Coys 1000 Островів, Помідори, Сир Моцарелла, Яловичина, Чеддар",
+      "sizes": [
+        26,
+        32,
+        40
+      ],
+      "size": "small",
+      "price": "1499 грн.",
+      "priceSmall": "1499 грн.",
+      "priceMiddle": "1800 грн.",
+      "priceLarge": "2000 грн.",
+      "category": "pizza"
+    },
+    {
+      "id": "4",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Caesar_Salad_g9awfm.jpg",
+      "name": "Тунцовий Салат",
+      "info": "Тунець, Салат Айберг, Чорні Оливки, Кукурудза, Огірки, Італійський Соус",
+      "price": "1550 грн.",
+      "category": "salad"
+    },
+    {
+      "id": "5",
+      "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%A2%D0%BE%D0%BF%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%B5%D1%82_quykhv.png",
+      "name": "Топовий сет",
+      "info": "1020 грам 40 шматочків",
+      "price": "1519 грн.",
+      "category": "sets"
+    }
+  ],
+  "all": {
+    "sets": [
+      {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117164/ROMSEM/sets/%D0%A1%D0%B0%D0%BB%D0%BE%D0%BC%D0%BE%D0%BD_%D1%81%D0%B5%D1%82_ix2lpq.png",
+        "name": "Саломон сет",
+        "info": "1050 грам, 30 шматочків",
+        "price": "1500 грн.",
+        "category": "sets"
+      },
+      {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117164/ROMSEM/sets/%D0%A1%D0%B5%D1%82_5_mm179b.png",
+        "name": "5 Філадельфій",
+        "info": "1120 грам 40 шматочків",
+        "price": "1499 грн.",
+        "category": "sets"
+      },
+      {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117164/ROMSEM/sets/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_%D0%B8_%D0%BB%D0%BE%D1%81%D0%BE%D1%81%D1%8C_%D1%81%D0%B5%D1%82_uvpmgc.png",
+        "name": "Філадельфія та лосось сет",
+        "info": "1260 грам 36 шматочків",
+        "price": "1499 грн.",
+        "category": "sets"
+      },
+      {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117164/ROMSEM/sets/%D0%A1%D0%B5%D1%82_6_fj3jzr.png",
+        "name": "6 Філадельфій",
+        "info": "1320 грам 46 шматочків",
+        "price": "1559 грн.",
+        "category": "sets"
+      },
+      {
+        "id": "5",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%A2%D0%BE%D0%BF%D0%BE%D0%B2%D1%8B%D0%B9_%D1%81%D0%B5%D1%82_quykhv.png",
+        "name": "Топовий сет",
+        "info": "1020 грам 40 шматочків",
+        "price": "1519 грн.",
+        "category": "sets"
+      },
+      {
+        "id": "6",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%9A%D0%B0%D0%BC%D0%B8%D0%BA%D0%B0%D0%B4%D0%B7%D0%B5_%D1%81%D0%B5%D1%82_tvgcie.png",
+        "name": "Камікадзе сет",
+        "info": "1200 грам 52 шматочки",
+        "price": "1469 грн.",
+        "category": "sets"
+      },
+      {
+        "id": "7",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%A1%D0%B5%D1%82_4_tanqyf.png",
+        "name": "4 Філадельфії",
+        "info": "1100 грам 32 шматочки",
+        "price": "1559 грн.",
+        "category": "sets"
+      },
+      {
+        "id": "8",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_LOVE_%D1%81%D0%B5%D1%82_qw1f0j.png",
+        "name": "Філадельфія LOVE сет",
+        "info": "1000 грам 40 шматочків",
+        "price": "1479 грн.",
+        "category": "sets"
+      },
+      {
+        "id": "9",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671117156/ROMSEM/sets/%D0%AF%D0%BA%D1%83%D0%B4%D0%B7%D0%B0_%D1%81%D0%B5%D1%82_nim5mv.png",
+        "name": "Якудза сет",
+        "info": "1270 грам 50 шматочків",
+        "price": "1499 грн.",
+        "category": "sets"
+      }
+    ],
+    "pizza": [
+      {
+        "id": "1",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/f035c7f46c0844069722f2bb3ee9f113_584x584.jpeg",
+        "name": "Вегетаріанська",
+        "info": "Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1500 грн.",
+        "priceSmall": "1500 грн.",
+        "priceMiddle": "1700 грн.",
+        "priceLarge": "1900 грн.",
+        "category": "pizza"
+      },
+      {
+        "id": "2",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/2ffc31bb-132c-4c99-b894-53f7107a1441.jpg",
+        "name": "Чеддар Дабл Бургер",
+        "info": "Coys 1000 Островів, Помідори, Сир Моцарелла, Яловичина, Чеддар",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1499 грн.",
+        "priceSmall": "1499 грн.",
+        "priceMiddle": "1800 грн.",
+        "priceLarge": "2000 грн.",
+        "category": "pizza"
+      },
+      {
+        "id": "3",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/6652fec1-04df-49d8-8744-232f1032c44b.jpg",
+        "name": "Класик Пепероні",
+        "info": "Пепероні, Екстра Моцарелла",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1499 грн.",
+        "priceSmall": "1499 грн.",
+        "priceMiddle": "1800 грн.",
+        "priceLarge": "2000 грн.",
+        "category": "pizza"
+      },
+      {
+        "id": "4",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/af553bf5-3887-4501-b88e-8f0f55229429.jpg",
+        "name": "Хот енд Спайсі",
+        "info": "Яловядина, Помідори, Зелений Перець, Перець Халапеньє, Сир Моцарелла",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1559 грн.",
+        "priceSmall": "1559 грн.",
+        "priceMiddle": "1950 грн.",
+        "priceLarge": "2200 грн.",
+        "category": "pizza"
+      },
+      {
+        "id": "5",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/b750f576-4a83-48e6-a283-5a8efb68c35d.jpg",
+        "name": "Гостра Вегетаріанська",
+        "info": "Перець Халапеньє, Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1519 грн.",
+        "priceSmall": "1519 грн.",
+        "priceMiddle": "1850 грн.",
+        "priceLarge": "2100 грн.",
+        "category": "pizza"
+      },
+      {
+        "id": "6",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/1e1a6e80-b3ba-4a44-b6b9-beae5b1fbf27.jpg",
+        "name": "Мексиканська",
+        "info": "Куриця Гриль, Помідори, Свіжі Гриби, Зелений Перець, Перець Халапеньє, Сир Моцарелла",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1469 грн.",
+        "priceSmall": "1469 грн.",
+        "priceMiddle": "1650 грн.",
+        "priceLarge": "1800 грн.",
+        "category": "pizza"
+      },
+      {
+        "id": "7",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d2e337e9-e07a-4199-9cc1-501cc44cb8f8.jpg",
+        "name": "Чеддар Чікен Клаб",
+        "info": "Куриця гриль, Помідори, Шинка, Моцарелла, Чеддар, Соус Ранч",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1559 грн.",
+        "priceSmall": "1559 грн.",
+        "priceMiddle": "1880 грн.",
+        "priceLarge": "2150 грн.",
+        "category": "pizza"
+      },
+      {
+        "id": "8",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/d48003cd-902c-420d-9f28-92d9dc5f73b4.jpg",
+        "name": "Маргарита",
+        "info": "Помідори, Орегано, Сир Моцарелла",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1479 грн.",
+        "priceSmall": "1479 грн.",
+        "priceMiddle": "1750 грн.",
+        "priceLarge": "2000 грн.",
+        "category": "pizza"
+      },
+      {
+        "id": "9",
+        "pic": "https://dodopizza.azureedge.net/static/Img/Products/Pizza/ru-RU/ec29465e-606b-4a04-a03e-da3940d37e0e.jpg",
+        "name": "Подвійний Чізбургер",
+        "info": "Яловичина, Солоні Огірки, Помідори, Сир Моцарелла, Coys",
+        "sizes": [
+          26,
+          32,
+          40
+        ],
+        "price": "1499 грн.",
+        "priceSmall": "1499 грн.",
+        "priceMiddle": "1650 грн.",
+        "priceLarge": "1900 грн.",
+        "category": "pizza"
+      }
+    ],
+    "wok": [
+      {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211460/ROMSEM/wok/Vegetable_stir_fry_rjx6xu.png",
+        "name": "Овочеве жарке",
+        "info": "Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+        "price": "2500 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+        "name": "Тайська подушка",
+        "info": "Рикова локшина, креветки, арахіс, яєчня, паростки квасолі",
+        "price": "2499 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671213585/ROMSEM/wok/%D0%A7%D0%BE%D1%83_%D0%9C%D0%B5%D0%B9%D0%BD_kbxnfu.jpg",
+        "name": "Смажений рис",
+        "info": "Pіc, яйця, овочі, морепродукти",
+        "price": "2499 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671213585/ROMSEM/wok/%D0%A7%D0%BE%D1%83_%D0%9C%D0%B5%D0%B9%D0%BD_kbxnfu.jpg",
+        "name": "Чоу Мейн",
+        "info": "Смажена локшина, овочі, тофу",
+        "price": "2559 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "5",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211460/ROMSEM/wok/Vegetable_stir_fry_rjx6xu.png",
+        "name": "Овочеве жарке",
+        "info": "Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+        "price": "2500 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "6",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+        "name": "Тайська подушка",
+        "info": "Рикова локшина, креветки, арахіс, яєчня, паростки квасолі",
+        "price": "2499 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "7",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+        "name": "Смажений рис",
+        "info": "Pіc, яйця, овочі, морепродукти",
+        "price": "2499 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "8",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671213585/ROMSEM/wok/%D0%A7%D0%BE%D1%83_%D0%9C%D0%B5%D0%B9%D0%BD_kbxnfu.jpg",
+        "name": "Чоу Мейн",
+        "info": "Смажена локшина, овочі, тофу",
+        "price": "2559 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "9",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211460/ROMSEM/wok/Vegetable_stir_fry_rjx6xu.png",
+        "name": "Овочеве жарке",
+        "info": "Помідори, Свіжі Гриби, Зелений Перець, Чорні Оливки, Сир Моцарелла",
+        "price": "2500 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "10",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211851/ROMSEM/wok/%D0%A2%D0%B0%D0%B9%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0_wpet96.png",
+        "name": "Тайська подушка",
+        "info": "Рикова локшина, креветки, арахіс, яєчня, паростки квасолі",
+        "price": "2499 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "12",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671211460/ROMSEM/wok/Vegetable_stir_fry_rjx6xu.png",
+        "name": "Смажений рис",
+        "info": "Pіc, яйця, овочі, морепродукти",
+        "price": "2499 грн.",
+        "category": "wok"
+      },
+      {
+        "id": "13",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671213585/ROMSEM/wok/%D0%A7%D0%BE%D1%83_%D0%9C%D0%B5%D0%B9%D0%BD_kbxnfu.jpg",
+        "name": "Чоу Мейн",
+        "info": "Смажена локшина, овочі, тофу",
+        "price": "2559 грн.",
+        "category": "wok"
+      }
+    ],
+    "rolls": [
+      {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+        "name": "Авокадо Макі",
+        "info": "8 шматочків",
+        "price": "150 грн.",
+        "category": "rolls"
+      },
+      {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+        "name": "Лосось Хруст",
+        "info": "8 шматочків",
+        "price": "200 грн.",
+        "category": "rolls"
+      },
+      {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+        "name": "Червоний дракон",
+        "info": "8 шматочків",
+        "price": "140 грн.",
+        "category": "rolls"
+      },
+      {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+        "name": "Крабові Роли",
+        "info": "8 шматочків",
+        "price": "155 грн.",
+        "category": "rolls"
+      },
+      {
+        "id": "5",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+        "name": "Банзай",
+        "info": "8 шматочків",
+        "price": "151 грн.",
+        "category": "rolls"
+      },
+      {
+        "id": "6",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+        "name": "Аригато",
+        "info": "8 шматочків",
+        "price": "146 грн.",
+        "category": "rolls"
+      },
+      {
+        "id": "7",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+        "name": "Каліфорнія",
+        "info": "8 шматочків",
+        "price": "155 грн.",
+        "category": "rolls"
+      },
+      {
+        "id": "8",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+        "name": "Аляска",
+        "info": "8 шматочків",
+        "price": "147 грн.",
+        "category": "rolls"
+      },
+      {
+        "id": "9",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+        "name": "Унаги",
+        "info": "8 шматочків",
+        "price": "149 грн.",
+        "category": "rolls"
+      }
+    ],
+    "sushi": [
+      {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+        "name": "Авокадо Макі",
+        "info": "8 шматочків",
+        "price": "150 грн.",
+        "category": "sushi"
+      },
+      {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+        "name": "Лосось Хруст",
+        "info": "8 шматочків",
+        "price": "200 грн.",
+        "category": "sushi"
+      },
+      {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+        "name": "Червоний дракон",
+        "info": "8 шматочків",
+        "price": "140 грн.",
+        "category": "sushi"
+      },
+      {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+        "name": "Крабові Роли",
+        "info": "8 шматочків",
+        "price": "155 грн.",
+        "category": "sushi"
+      },
+      {
+        "id": "5",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%90%D1%80%D0%B8%D0%B3%D0%B0%D1%82%D0%BE_gtf9nq.png",
+        "name": "Банзай",
+        "info": "8 шматочків",
+        "price": "151 грн.",
+        "category": "sushi"
+      },
+      {
+        "id": "6",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+        "name": "Аригато",
+        "info": "8 шматочків",
+        "price": "146 грн.",
+        "category": "sushi"
+      },
+      {
+        "id": "7",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+        "name": "Каліфорнія",
+        "info": "8 шматочків",
+        "price": "155 грн.",
+        "category": "sushi"
+      },
+      {
+        "id": "8",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F_alyky4.png",
+        "name": "Аляска",
+        "info": "8 шматочків",
+        "price": "147 грн.",
+        "category": "sushi"
+      },
+      {
+        "id": "9",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671214489/ROMSEM/roll/%D0%91%D0%B0%D0%BD%D0%B7%D0%B0%D0%B9_eday91.png",
+        "name": "Унаги",
+        "info": "8 шматочків",
+        "price": "149 грн.",
+        "category": "sushi"
+      }
+    ],
+    "salad": [
+      {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Greek_Salad_ghaslj.jpg",
+        "name": "Салат Цезар",
+        "info": "Куриця Гриль, Салат Айсберг, Сухарі, Помідори, Пармесан, Соус Цезар",
+        "price": "1500 грн.",
+        "category": "salad"
+      },
+      {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Tuna_Salad_no_tomato_Azer_158_1_cq98xx.jpg",
+        "name": "Грецький Салат",
+        "info": "Огірки, Помідори, Салат Айсберг, Чорні Оливки, Сир Фета, Італійський Соус",
+        "price": "2000 грн.",
+        "category": "salad"
+      },
+      {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Garden_Slad_pxmmzx.jpg",
+        "name": "Овочевий Салат",
+        "info": "Огірки, Помідори, Салат Айсберг, Чорні Оливки, Зелений Перець, Італійський Соус",
+        "price": "1400 грн.",
+        "category": "salad"
+      },
+      {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671215993/ROMSEM/salad/Caesar_Salad_g9awfm.jpg",
+        "name": "Тунцовий Салат",
+        "info": "Тунець, Салат Айберг, Чорні Оливки, Кукурудза, Огірки, Італійський Соус",
+        "price": "1550 грн.",
+        "category": "salad"
+      }
+    ],
+    "soup": [
+      {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217804/ROMSEM/soup/Ramen_Chicken_lxx962.png",
+        "name": "Рамен Курча",
+        "info": "Гриби, локшина, курка, зелень, приправи, гострі соус, яйце",
+        "price": "1500 грн.",
+        "category": "soup"
+      },
+      {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217804/ROMSEM/soup/Tom_Yum_-_Chicken_twgypg.png",
+        "name": "Том Ям - Курча",
+        "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, курка",
+        "price": "2000 грн.",
+        "category": "soup"
+      },
+      {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217805/ROMSEM/soup/Tom_Yum_-_Salmon_smnc5g.png",
+        "name": "Том Ям - Лосось",
+        "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, лосось",
+        "price": "1400 грн.",
+        "category": "soup"
+      },
+      {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217805/ROMSEM/soup/Tom_Yum_-_Seafood_lqhmdr.png",
+        "name": "Том Ям - Морепродукти",
+        "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, морепродукти",
+        "price": "1550 грн.",
+        "category": "soup"
+      },
+      {
+        "id": "5",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671217805/ROMSEM/soup/Tom_Yum_-_Seafood_lqhmdr.png",
+        "name": "Том Ям - Морепродукти",
+        "info": "Паста том ям, кокосове молоко, шиїтаке, тамато, коріандр, часник, морепродукти",
+        "price": "1550 грн.",
+        "category": "soup"
+      }
+    ],
+    "corn": [
+      {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+        "name": "Корн дог",
+        "info": "5 шматочків",
+        "price": "500 грн.",
+        "category": "corn"
+      },
+      {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+        "name": "Корн дог",
+        "info": "5 шматочків",
+        "price": "500 грн.",
+        "category": "corn"
+      },
+      {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+        "name": "Корн дог",
+        "info": "5 шматочків",
+        "price": "500 грн.",
+        "category": "corn"
+      },
+      {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+        "name": "Корн дог",
+        "info": "5 шматочків",
+        "price": "500 грн.",
+        "category": "corn"
+      },
+      {
+        "id": "5",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671218713/ROMSEM/corn/corn_s8sker.png",
+        "name": "Корн дог",
+        "info": "5 шматочків",
+        "price": "500 грн.",
+        "category": "corn"
+      }
+    ],
+    "drinks": [
+      {
+        "id": "1",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237891/ROMSEM/drinks/1cocacola_pwctkn.png",
+        "name": "Кока Кола",
+        "info": "500мл",
+        "price": "150 грн.",
+        "category": "drinks"
+      },
+      {
+        "id": "2",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237888/ROMSEM/drinks/1Sprite_gemanb.png",
+        "name": "Срайт",
+        "info": "500мл",
+        "price": "150 грн.",
+        "category": "drinks"
+      },
+      {
+        "id": "3",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237889/ROMSEM/drinks/1Cappi_le1rgp.png",
+        "name": "Натуральні Соки - Cappy",
+        "info": "500мл",
+        "price": "150 грн.",
+        "category": "drinks"
+      },
+      {
+        "id": "4",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237885/ROMSEM/drinks/1Fanta_se9ajr.png",
+        "name": "Фанта",
+        "info": "500мл",
+        "price": "150 грн.",
+        "category": "drinks"
+      },
+      {
+        "id": "5",
+        "pic": "https://res.cloudinary.com/dsu2ze2wx/image/upload/v1671237886/ROMSEM/drinks/1Fusetea_rbgubc.png",
+        "name": "Фьюз Ті",
+        "info": "500мл",
+        "price": "150 грн.",
+        "category": "drinks"
+      }
+    ]
+  }
+}

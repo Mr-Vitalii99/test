@@ -1,0 +1,29 @@
+@import '../../../../utils/variables';
+
+.search-card {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    cursor: pointer;
+
+    &__img {
+        width: 72px;
+        height: 72px;
+        border-radius: 50%;
+    }
+
+    &__title {
+        margin-bottom: 5px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+        color: $accent-text-color;
+    }
+
+    &__price {
+        margin-right: 10px;
+        font-weight: 700;
+        font-size: 18px;
+        color: $primary-text-color;
+    }
+}

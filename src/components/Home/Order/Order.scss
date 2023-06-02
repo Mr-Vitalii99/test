@@ -1,0 +1,258 @@
+@import '../../../utils/variables';
+@import '../../../utils/placeholder';
+
+
+.order {
+    padding: 10px;
+
+    &__title {
+        margin-bottom: 10px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 1.2;
+        color: $accent-text-color;
+        text-align: center;
+    }
+
+    &__total {
+        width: 100%;
+    }
+}
+
+
+.order-form {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__input-container {
+        width: 100%;
+        max-width: 410px;
+    }
+
+    input {
+        width: 100%;
+        max-width: 410px;
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.2;
+        color: $primary-text-color;
+        outline: none;
+
+        &:focus {
+            border: 2px solid $primary-accent-color;
+        }
+    }
+
+    input::placeholder {
+        color: $secondary-text-color;
+    }
+
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 410px;
+        margin-bottom: 10px;
+    }
+
+    &__block:nth-child(1)>:first-child,
+    &__block:nth-child(5)>:first-child,
+    &__block:nth-child(6)>:first-child {
+        width: 50%;
+        max-width: 200px;
+        margin-right: 10px;
+    }
+
+    &__block:nth-child(1)>:nth-child(2),
+    &__block:nth-child(5)>:nth-child(2),
+    &__block:nth-child(6)>:nth-child(2) {
+        width: 50%;
+        max-width: 200px;
+    }
+
+    &__block:nth-child(11) {
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.2;
+        color: $accent-text-color;
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        max-width: 205px;
+        padding: 10px 0px;
+        font-size: 18px;
+        border: none;
+        background-color: $secondary-bg-color;
+        cursor: pointer;
+
+        &--previous {
+            border-radius: 5px 0px 0px 5px;
+        }
+
+        &--next {
+            border-radius: 0px 5px 5px 0px;
+        }
+
+        &:hover,
+        &:focus {
+            color: $secondary-bg-color;
+            background-color: $secondary-accent-color;
+        }
+
+        &:hover &__icon,
+        &:focus &__icon {
+            fill: $secondary-bg-color;
+        }
+
+        &.checked {
+            background-color: $primary-accent-color;
+            color: $secondary-bg-color;
+        }
+    }
+
+    &__icon {
+        fill: black;
+        margin-right: 10px;
+    }
+
+    &__icon.checked {
+        fill: $secondary-bg-color;
+    }
+
+    &__checkbox-container {
+        width: 100%;
+        max-width: 410px;
+        margin-bottom: 10px;
+    }
+
+    &__checkbox-field {
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    &__checkbox-field :nth-child(1) {
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        border: 0;
+        padding: 0;
+        clip: rect(0 0 0 0);
+        margin: -1px;
+
+        &:checked+.icon-checkbox--empty {
+
+            fill: $primary-accent-color;
+            background-color: $primary-accent-color;
+            border-radius: 8px;
+        }
+
+        &:checked~.icon-checkbox--checked {
+            width: 20px;
+            height: 20px;
+            opacity: 1;
+        }
+    }
+
+    &__checkbox-field :nth-child(2) {
+        min-width: 20px;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+
+        fill: $primary-accent-color;
+    }
+
+    &__checkbox-field :nth-child(3) {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 8px;
+        left: -1px;
+        opacity: 0
+    }
+
+    &__checkbox-field :nth-child(4) {
+        margin-right: 10px;
+        min-width: 150px;
+    }
+
+    &__checkbox-field :nth-child(5) {
+        flex-grow: 1;
+    }
+
+    &__total-container {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background-color: $secondary-bg-color;
+        color: $primary-text-color;
+        border-radius: 5px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.2;
+    }
+
+    &__quantity-button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__quantity {
+        padding: 0 5px;
+    }
+
+    &__submit-button {
+        @extend %button;
+        width: 100%;
+        max-width: 410px;
+        padding: 13px 0;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 18px;
+        color: $primary-bg-color;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    &__link {
+        color: $primary-text-color;
+        text-decoration: underline;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .order {
+        padding: 0;
+        margin-top: 40px;
+
+        &__total {
+            display: none;
+        }
+    }
+
+
+}

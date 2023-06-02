@@ -1,0 +1,24 @@
+@import '../../../../utils/variables';
+
+
+.banner {
+    display: none;
+}
+
+@media screen and (min-width: 1171px) {
+    .banner {
+        display: block;
+        margin-bottom: 30px;
+        background-color: $secondary-bg-color;
+    }
+
+    .banner img {
+        height: 500px;
+    }
+}
+
+
+
+.swiper-pagination-bullet {
+    background-color: $primary-accent-color !important;
+}
