@@ -8,7 +8,7 @@ export const SideBarLeft = () => {
   return (
     <aside className="sidebar-left">
       <div className="sidebar-left__top">
-        <Link to="/">
+        <Link to="/test">
           <img className="sidebar-left__logo" src={logo} alt="site logo" />
         </Link>
         <h1 className="sidebar-left__title">Romsem</h1>
@@ -17,7 +17,7 @@ export const SideBarLeft = () => {
       <ul className="sidebar-left__list">
         <li className="sidebar-left__list-item">
           <ProductSvgSelector id="icon-pizza" />
-          <NavLink className="sidebar-left__list-link" to="/pizza">
+          <NavLink className="sidebar-left__list-link" to="/test/pizza">
             Піца
           </NavLink>
         </li>

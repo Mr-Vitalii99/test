@@ -17,7 +17,6 @@ import { Main } from "./Main/Main";
 import { Product } from "./ProductCard/Product";
 import { Reviews } from "./Reviews/Reviews";
 import { Express } from "./Express/Express";
-import { Cart } from "../Cart/Cart";
 import { Footer } from "./Footer/Footer";
 import { ContentLayout } from "./ContentLayout/ContentLayout";
 import { Order } from "../Order/Order";
@@ -31,7 +30,7 @@ export const Content = () => {
         <div className="container">
           <Routes>
             <Route path="/test" element={<ContentLayout />}>
-              <Route path="" element={<Main />} />
+              <Route path="/test" element={<Main />} />
               <Route path="pizza" element={<Pizza />} />
               <Route path="sets" element={<Sets />} />
               <Route path="wok" element={<Wok />} />
