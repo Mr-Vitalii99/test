@@ -30,7 +30,7 @@ export const Content = () => {
         <Header />
         <div className="container">
           <Routes>
-            <Route path="/" element={<ContentLayout />}>
+            <Route path="/test" element={<ContentLayout />}>
               <Route path="" element={<Main />} />
               <Route path="pizza" element={<Pizza />} />
               <Route path="sets" element={<Sets />} />
