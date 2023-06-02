@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/test/static/css/main.6c86d764.css",
+    "main.js": "/test/static/js/main.645cd748.js",
+    "static/media/pizza.jpg": "/test/static/media/pizza.0dbf1883d6c313debe0c.jpg",
+    "static/media/DINPro.ttf": "/test/static/media/DINPro.1b0768c360d049fff810.ttf",
+    "static/media/DINPro-Medium.ttf": "/test/static/media/DINPro-Medium.4a3f4ee8d25ffd9eb29b.ttf",
+    "static/media/DINPro-Bold.ttf": "/test/static/media/DINPro-Bold.f50b65ea926ab3b5f2bb.ttf",
+    "static/media/bon_appetit.png": "/test/static/media/bon_appetit.8b69517ded645d84068f.png",
+    "static/media/sushi-set.jpg": "/test/static/media/sushi-set.904a89852d534d9d1583.jpg",
+    "static/media/soup.jpg": "/test/static/media/soup.b8d32aa850b8d572724d.jpg",
+    "static/media/Nexa-Regular.ttf": "/test/static/media/Nexa-Regular.b35c695cd16911068d43.ttf",
+    "static/media/salad.jpg": "/test/static/media/salad.aab23f958c7c4ff5be0a.jpg",
+    "static/media/DINPro-Medium.woff": "/test/static/media/DINPro-Medium.8884aedddd5a2d53cb63.woff",
+    "static/media/DINPro.woff": "/test/static/media/DINPro.1871e3d59b6b24eb537d.woff",
+    "static/media/DINPro-Bold.woff": "/test/static/media/DINPro-Bold.e77241e3cec5a2484ff2.woff",
+    "static/media/Nexa-Regular.woff": "/test/static/media/Nexa-Regular.26914a1983b686385c95.woff",
+    "static/media/logo.png": "/test/static/media/logo.c6ad94352fab9cd211de.png",
+    "static/media/icon-clock.svg": "/test/static/media/icon-clock.57826986183613f115ccd1943e745c96.svg",
+    "static/media/icon-card.svg": "/test/static/media/icon-card.acca3d6e474db3d734d0ee3b90851d8e.svg",
+    "static/media/icon-wallet.svg": "/test/static/media/icon-wallet.36da7846f333a1537a6cfdd4bbc756f1.svg",
+    "static/media/icon-search.svg": "/test/static/media/icon-search.e2a2ed0680b70575c09f32590438bb65.svg",
+    "index.html": "/test/index.html",
+    "static/media/icon-check.svg": "/test/static/media/icon-check.51f67e8fd0cf10fb3231e390d96d4cdd.svg",
+    "static/media/icon-plus.svg": "/test/static/media/icon-plus.da901f3363c2a0c84bc5ba6c7bb0511c.svg",
+    "static/media/icon-checkbox-empty.svg": "/test/static/media/icon-checkbox-empty.6bb4ebe960a2c1831bcf353bd5ee2604.svg",
+    "static/media/icon-minus.svg": "/test/static/media/icon-minus.7b1cd1f6faebbe54be62e8d3c0f3d674.svg",
+    "static/media/icon-orange-arrow-left.svg": "/test/static/media/icon-orange-arrow-left.03c5a6c036c1c40f96b9567328dfad46.svg",
+    "static/media/icon-arrow-down.svg": "/test/static/media/icon-arrow-down.ef52c91547b1a25605739b044f471cba.svg",
+    "main.6c86d764.css.map": "/test/static/css/main.6c86d764.css.map",
+    "main.645cd748.js.map": "/test/static/js/main.645cd748.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c86d764.css",
+    "static/js/main.645cd748.js"
+  ]
+}
