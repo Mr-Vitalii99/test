@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/test/static/css/main.e810580e.css",
-    "main.js": "/test/static/js/main.fe6d60ef.js",
+    "main.css": "/test/static/css/main.83d6bc0e.css",
+    "main.js": "/test/static/js/main.51fb5891.js",
     "static/media/pizza.jpg": "/test/static/media/pizza.0dbf1883d6c313debe0c.jpg",
     "static/media/DINPro.ttf": "/test/static/media/DINPro.1b0768c360d049fff810.ttf",
     "static/media/DINPro-Medium.ttf": "/test/static/media/DINPro-Medium.4a3f4ee8d25ffd9eb29b.ttf",
@@ -14,6 +14,7 @@
     "static/media/DINPro-Medium.woff": "/test/static/media/DINPro-Medium.8884aedddd5a2d53cb63.woff",
     "static/media/DINPro.woff": "/test/static/media/DINPro.1871e3d59b6b24eb537d.woff",
     "static/media/DINPro-Bold.woff": "/test/static/media/DINPro-Bold.e77241e3cec5a2484ff2.woff",
+    "static/media/spinner.gif": "/test/static/media/spinner.f47867421a9b099e2cea.gif",
     "static/media/Nexa-Regular.woff": "/test/static/media/Nexa-Regular.26914a1983b686385c95.woff",
     "static/media/logo.png": "/test/static/media/logo.c6ad94352fab9cd211de.png",
     "static/media/icon-clock.svg": "/test/static/media/icon-clock.57826986183613f115ccd1943e745c96.svg",
@@ -27,11 +28,11 @@
     "static/media/icon-minus.svg": "/test/static/media/icon-minus.7b1cd1f6faebbe54be62e8d3c0f3d674.svg",
     "static/media/icon-orange-arrow-left.svg": "/test/static/media/icon-orange-arrow-left.03c5a6c036c1c40f96b9567328dfad46.svg",
     "static/media/icon-arrow-down.svg": "/test/static/media/icon-arrow-down.ef52c91547b1a25605739b044f471cba.svg",
-    "main.e810580e.css.map": "/test/static/css/main.e810580e.css.map",
-    "main.fe6d60ef.js.map": "/test/static/js/main.fe6d60ef.js.map"
+    "main.83d6bc0e.css.map": "/test/static/css/main.83d6bc0e.css.map",
+    "main.51fb5891.js.map": "/test/static/js/main.51fb5891.js.map"
   },
   "entrypoints": [
-    "static/css/main.e810580e.css",
-    "static/js/main.fe6d60ef.js"
+    "static/css/main.83d6bc0e.css",
+    "static/js/main.51fb5891.js"
   ]
 }
