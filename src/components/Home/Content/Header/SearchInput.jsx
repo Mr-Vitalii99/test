@@ -3,6 +3,7 @@ import "./SearchInput.scss";
 import { ReactComponent as SearchIcon } from "../../../../assets/icons/icon-search.svg";
 import { useState } from "react";
 import axios from "axios";
+import firebase from "../../../../utils/fb-config";
 import { SearchCard } from "./SearchCard";
 
 
@@ -14,9 +15,15 @@ export const SearchInput = ({searchInput, setSearchInput }) => {
     const text = e.target.value.toLowerCase().trim();
     setSearchInputValue(text);
     if (text) {
-      axios("http://localhost:8080/all").then(({ data }) =>
+       
+    firebase
+      .database()
+      .ref()
+      .child(`all`)
+      .once("value")
+      .then( (data)  => 
         setAllProducts(
-          Object.values(data)
+          Object.values(data.val())
             .reduce((acc, rec) => {
               return [
                 ...acc,
@@ -30,7 +37,7 @@ export const SearchInput = ({searchInput, setSearchInput }) => {
       );
     } else {
       setAllProducts([]);
-    }
+     }
   };
 
   return (

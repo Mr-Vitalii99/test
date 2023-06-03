@@ -60,7 +60,7 @@ export const Order = () => {
     }
   };
 
-  const { cart, totalCount, totalPrice, orderDiscount, deliveryCost } =
+  const { cart, totalPrice, orderDiscount, deliveryCost } =
     useContext(CustomContext);
 
   const TOKEN = "6275533372:AAE8QMB0Cznj68Kw4xmhctaa2aVOze3D95A";
@@ -113,7 +113,7 @@ export const Order = () => {
       parse_mode: "html",
       text: message,
     });
-    // reset();
+    reset();
     openModal();
   };
 
@@ -278,14 +278,14 @@ export const Order = () => {
           <p className="order-form__text">
             Натискаючи на кнопку Оформити замовлення, Ви підтверджуєте свою
             згоду на обробку персональних даних відповідно до{" "}
-            <a href="#" className="order-form__link">
+            <a href="/#" className="order-form__link">
               Публічної оферти
             </a>
           </p>
         </form>
         {showModal && (
           <Modal closeModal={closeModal}>
-           <ModalContent/>
+            <ModalContent />
           </Modal>
         )}
       </section>

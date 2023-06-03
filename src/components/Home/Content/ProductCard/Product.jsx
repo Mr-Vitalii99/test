@@ -1,5 +1,6 @@
 import "./Product.scss";
 import axios from "axios";
+import firebase from "../../../../utils/fb-config";
 
 //* SVG/-----------------------------
 import { ReactComponent as ArrowLeftIcon } from "../../../../assets/icons/icon-orange-arrow-left.svg";
@@ -30,14 +31,30 @@ export const Product = () => {
   const { increaseProductQuantity, decreaseProductQuantity } =
     useContext(CustomContext);
 
-  useEffect(() => {
-    axios(`http://localhost:8080/${path}/${id}`).then(({ data }) =>
-      setProduct(data)
-    );
+  // useEffect(() => {
+  //   axios(`http://localhost:8080/${path}/${id}`).then(({ data }) =>
+  //     setProduct(data)
+  //   );
 
-    axios(`http://localhost:8080/${path}`).then(({ data }) => {
-      setRecommendedProduct(data.slice(0, 6));
-    });
+  //   axios(`http://localhost:8080/${path}`).then(({ data }) => {
+  //     setRecommendedProduct(data.slice(0, 6));
+  //   });
+  // }, [path, id]);
+
+  useEffect(() => {
+    firebase
+      .database()
+      .ref()
+      .child(`${path}/${id}`)
+      .once("value")
+      .then((data) => setProduct(data.val()));
+
+    firebase
+      .database()
+      .ref()
+      .child(`${path}`)
+      .once("value")
+      .then((data) => setRecommendedProduct(data.val().slice(0, 6)));
   }, [path, id]);
 
   const increaseProductCounter = () => {

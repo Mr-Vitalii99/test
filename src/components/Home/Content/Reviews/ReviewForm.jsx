@@ -2,6 +2,7 @@ import React from 'react';
 import './ReviewForm.scss';
 import { useForm } from "react-hook-form";
 import axios from "axios";
+import firebase from "../../../../utils/fb-config";
 
 export const ReviewForm = ({ isShowReview, setIsShowReview }) => {
   const {
@@ -20,10 +21,33 @@ export const ReviewForm = ({ isShowReview, setIsShowReview }) => {
     return formattedDate;
   };
 
+  // const addReview = (data) => {
+  //   axios.post("http://localhost:8080/reviews", data);
+  //   setIsShowReview(!isShowReview);
+  //   reset();
+  // };
+
   const addReview = (data) => {
-    axios.post("http://localhost:8080/reviews", data);
-    setIsShowReview(!isShowReview);
-    reset();
+    const reviewsRef = firebase.database().ref("reviews");
+    reviewsRef
+      .once("value")
+      .then((snapshot) => {
+        const currentReviews = snapshot.val() || [];
+        const newReviewId = currentReviews.length + 1;
+        currentReviews.push({ ...data, id: newReviewId });
+        reviewsRef
+          .set(currentReviews)
+          .then(() => {
+            setIsShowReview(!isShowReview);
+            reset();
+          })
+          .catch((error) => {
+            console.log("Помилка додавання відгуку:", error);
+          });
+      })
+      .catch((error) => {
+        console.log("Помилка отримання відгуків:", error);
+      });
   };
 
   return (

@@ -1,23 +1,34 @@
 import React from "react";
-import './ProductsPage.scss';
+import "./ProductsPage.scss";
 
 import { useEffect } from "react";
 import { useState } from "react";
+import firebase from "../../../../utils/fb-config";
 import axios from "axios";
 import { ProductSvgSelector } from "../../ProductSvgSelector";
 
 import { ProductCard } from "../ProductCard/ProductCard";
 import { Sort } from "./Sort";
+import { Spinner } from "../../../Spinner/Spinner";
 
 export const ProductsPage = ({ productIcon, title, path }) => {
   const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    axios(`http://localhost:8080/${path}`).then(({ data }) =>
-      setProducts(data)
-    );
-  }, [path]);
+  // useEffect(() => {
+  //   axios(`http://localhost:8080/${path}`).then(({ data }) =>
+  //     setProducts(data)
+  //   );
+  // }, [path]);
 
+
+  useEffect(() => {
+    firebase
+      .database()
+      .ref()
+      .child(`${path}`)
+      .once("value")
+      .then((data) => setProducts(data.val()));
+  }, [path]);
 
   return (
     <section className="products">
@@ -33,13 +44,17 @@ export const ProductsPage = ({ productIcon, title, path }) => {
       </div>
 
       <div className="products__cards-container">
-        {products.map((product) => (
-          <ProductCard
-            key={`${product.id}-${product.name}`}
-            path={path}
-            product={product}
-          />
-        ))}
+        {products ? (
+          products.map((product) => (
+            <ProductCard
+              key={`${product.id}-${product.name}`}
+              path={path}
+              product={product}
+            />
+          ))
+        ) : (
+          <Spinner />
+        )}
       </div>
     </section>
   );

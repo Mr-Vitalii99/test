@@ -1,16 +1,26 @@
 import React, { useEffect, useState } from "react";
 import "./Reviews.scss";
 import axios from "axios";
+import firebase from "../../../../utils/fb-config";
 import { ReviewForm } from "./ReviewForm";
 
 export const Reviews = () => {
   const [reviews, setReviews] = useState([]);
   const [isShowReview, setIsShowReview] = useState(false);
 
-  useEffect(() => {
-    axios("http://localhost:8080/reviews").then(({ data }) => setReviews(data));
-  }, [isShowReview]);
+  // useEffect(() => {
+  //   axios("http://localhost:8080/reviews").then(({ data }) => setReviews(data));
+  // }, [isShowReview]);
 
+   useEffect(() => {
+     firebase
+       .database()
+       .ref()
+       .child(`reviews`)
+       .once("value")
+       .then((data) => setReviews(data.val()));
+   }, [isShowReview]);
+  
 
   return (
     <div className="reviews">
@@ -44,3 +54,7 @@ export const Reviews = () => {
     </div>
   );
 };
+
+
+
+

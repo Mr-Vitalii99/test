@@ -1,4 +1,5 @@
 import axios from "axios";
+import firebase from "../../../../utils/fb-config";
 import React, { useState, useEffect } from "react";
 import "./MainSwiper.scss";
 
@@ -12,16 +13,26 @@ import { Pagination, Navigation } from "swiper";
 
 
 import { ProductCard } from "../ProductCard/ProductCard";
+import { Spinner } from "../../../Spinner/Spinner";
 
 export const MainSwiper = () => {
   const [products, setProducts] = useState([]);
   const [path, setPath] = useState("new");
 
-  useEffect(() => {
-    axios(`http://localhost:8080/${path}`).then(({ data }) =>
-      setProducts(data)
-    );
-  }, [path]);
+  // useEffect(() => {
+  //   axios(`http://localhost:8080/${path}`).then(({ data }) =>
+  //     setProducts(data)
+  //   );
+  // }, [path]);
+
+   useEffect(() => {
+     firebase
+       .database()
+       .ref()
+       .child(`${path}`)
+       .once("value")
+       .then((data) => setProducts(data.val()));
+   }, [path]);
 
   const getNewProduct = (e) => {
     setPath("new");
@@ -48,7 +59,7 @@ export const MainSwiper = () => {
           Популярне
         </button>
       </div>
-      <Swiper
+      {products ? <Swiper
         modules={[Pagination, Navigation]}
         navigation
         slidesPerView={3}
@@ -76,7 +87,7 @@ export const MainSwiper = () => {
             />
           </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> : <Spinner/>}    
     </div>
   );
 };
