@@ -1,5 +1,5 @@
 import "./Product.scss";
-import axios from "axios";
+// import axios from "axios";
 import firebase from "../../../../utils/fb-config";
 
 //* SVG/-----------------------------
@@ -93,7 +93,7 @@ export const Product = () => {
                 onClick={() => {
                   decreaseProductQuantity(product);
                   decreaseProductCounter();
-                } }
+                }}
               >
                 <IconMinus width={"25px"} height={"25px"} />
               </IconButton>
@@ -115,6 +115,16 @@ export const Product = () => {
           <div className="product__content-composition">
             <p className="product__content-composition-title">Склад</p>
             <p className="product__content-composition-text">{product.info}</p>
+            {product.category === "sets" ||
+            product.category === "rolls" ||
+            product.category === "sushi" ? (
+              <div>
+                <span className="card__text">{product.pieces}</span>{" "}
+                <span className="card__text">{product.grams}</span>
+              </div>
+            ) : (
+              ""
+            )}
           </div>
           <CardButton
             product={product}

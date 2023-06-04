@@ -29,17 +29,11 @@ export const Sort = ({ path, products, setProducts }) => {
         setProducts(sortedProducts);
         break;
       case "Кількість шматочків":
-        sortedProducts.sort(
-          (a, b) =>
-            parseInt(a.info.split(" ")[2]) - parseInt(b.info.split(" ")[2])
-        );
+        sortedProducts.sort((a, b) => parseInt(a.pieces) - parseInt(b.pieces));
         setProducts(sortedProducts);
         break;
       case "Вага":
-        sortedProducts.sort(
-          (a, b) =>
-            parseInt(a.info.split(" ")[0]) - parseInt(b.info.split(" ")[0])
-        );
+        sortedProducts.sort((a, b) => parseInt(a.grams) - parseInt(b.grams));
         setProducts(sortedProducts);
         break;
       default:

@@ -2,7 +2,7 @@ import React from "react";
 import "./SearchInput.scss";
 import { ReactComponent as SearchIcon } from "../../../../assets/icons/icon-search.svg";
 import { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import firebase from "../../../../utils/fb-config";
 import { SearchCard } from "./SearchCard";
 

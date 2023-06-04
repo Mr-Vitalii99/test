@@ -11,7 +11,7 @@ export const SideBarLeft = () => {
         <Link to="/">
           <img className="sidebar-left__logo" src={logo} alt="site logo" />
         </Link>
-        <h1 className="sidebar-left__title">Romsem</h1>
+        <h1 className="sidebar-left__title">Vitoshi</h1>
       </div>
 
       <ul className="sidebar-left__list">
@@ -55,12 +55,6 @@ export const SideBarLeft = () => {
           <ProductSvgSelector id="icon-soup" />
           <NavLink className="sidebar-left__list-link" to="/soup">
             Супи
-          </NavLink>
-        </li>
-        <li className="sidebar-left__list-item">
-          <ProductSvgSelector id="icon-corn" />
-          <NavLink className="sidebar-left__list-link" to="/corndog">
-            Корн доги
           </NavLink>
         </li>
         <li className="sidebar-left__list-item">

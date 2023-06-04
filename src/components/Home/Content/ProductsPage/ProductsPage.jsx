@@ -4,7 +4,7 @@ import "./ProductsPage.scss";
 import { useEffect } from "react";
 import { useState } from "react";
 import firebase from "../../../../utils/fb-config";
-import axios from "axios";
+// import axios from "axios";
 import { ProductSvgSelector } from "../../ProductSvgSelector";
 
 import { ProductCard } from "../ProductCard/ProductCard";

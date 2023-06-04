@@ -1,5 +1,5 @@
 import React from "react";
-import './ProductCard.scss';
+import "./ProductCard.scss";
 import { Link } from "react-router-dom";
 import { PizzaSize } from "./PizzaSize";
 import { CardButton } from "./CardButton";
@@ -7,7 +7,6 @@ import { ProductPrice } from "./ProductPrice";
 import { useState } from "react";
 
 export const ProductCard = ({ path, product, className }) => {
-  
   const [pizzaSize, setPizzaSize] = useState("small");
 
   return (
@@ -20,6 +19,16 @@ export const ProductCard = ({ path, product, className }) => {
         <p className="card__text">{product.info}</p>
         {product.category === "pizza" ? (
           <PizzaSize product={product} setPizzaSize={setPizzaSize} />
+        ) : (
+          ""
+        )}
+        {product.category === "sets" ||
+        product.category === "rolls" ||
+        product.category === "sushi" ? (
+          <div>
+            <span className="card__text">{product.pieces}</span>{" "}
+            <span className="card__text">{product.grams}</span>
+          </div>
         ) : (
           ""
         )}

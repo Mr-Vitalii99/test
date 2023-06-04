@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./Reviews.scss";
-import axios from "axios";
+// import axios from "axios";
 import firebase from "../../../../utils/fb-config";
 import { ReviewForm } from "./ReviewForm";
 

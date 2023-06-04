@@ -1,6 +1,6 @@
 import "./Main.scss";
 import React, { useState, useEffect } from "react";
-import axios from "axios";
+// import axios from "axios";
 import firebase from "../../../../utils/fb-config";
 import { Banner } from "./Banner";
 import { MainSwiper } from "./MainSwiper";

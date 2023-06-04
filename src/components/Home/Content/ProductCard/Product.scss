@@ -166,12 +166,14 @@
 
         &__content {
             flex-direction: row;
+            justify-content: space-between;
             max-width: 700px;
             padding: 20px;
         }
 
         &__content-img {
             width: 50%;
+            margin-right: 5px;
         }
 
         &__content-title {
@@ -209,6 +211,10 @@
 
         &__content {
             padding: 20px 30px;
+        }
+
+        &__content-img {
+            margin-right: 15px;
         }
 
         &__content-title {

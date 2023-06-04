@@ -4,12 +4,17 @@ import { useForm } from "react-hook-form";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
 import { CustomContext } from "../../Context/Context";
 
+//* SVG /-----------------------------------------------
 import { ReactComponent as CardIcon } from "../../../assets/icons/icon-card.svg";
 import { ReactComponent as WalletIcon } from "../../../assets/icons/icon-wallet.svg";
 import { ReactComponent as IconPlus } from "../../../assets/icons/icon-plus.svg";
 import { ReactComponent as IconMinus } from "../../../assets/icons/icon-minus.svg";
+//* SVG /-----------------------------------------------
+
+
 import { InputRadio } from "./InputRadio";
 import { Input } from "./Input";
 import { OrderButton } from "./OrderButton";
@@ -20,6 +25,7 @@ import { Modal } from "../../Modal/Modal";
 import { ModalContent } from "./ModalContent";
 
 export const Order = () => {
+  const navigate = useNavigate();
   const [showModal, setShowModal] = useState(false);
 
   const {
@@ -60,7 +66,7 @@ export const Order = () => {
     }
   };
 
-  const { cart, totalPrice, orderDiscount, deliveryCost } =
+  const { cart, totalPrice, orderDiscount, deliveryCost, emptyСart } =
     useContext(CustomContext);
 
   const TOKEN = "6275533372:AAE8QMB0Cznj68Kw4xmhctaa2aVOze3D95A";
@@ -68,8 +74,6 @@ export const Order = () => {
   const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
   const onSubmit = (data) => {
-
-    console.log(cart.length);
 
     if (!cart.length) {
       toast.warn("Спочатку треба замовити товар.");
@@ -104,9 +108,7 @@ export const Order = () => {
     message += `<b>Вартість з урахуванням знижки: </b>${
       totalPrice - orderDiscount
     } грн.\n`;
-    message += `<b>Вартість доставки: </b>${deliveryCost}\n`;
-
-    console.log(message);
+    message += `<b>Вартість доставки: </b>${deliveryCost}\n`; console.log(message);
 
     axios.post(URI_API, {
       chat_id: CHAT_ID,
@@ -115,6 +117,7 @@ export const Order = () => {
     });
     reset();
     openModal();
+    emptyСart();
   };
 
   const openModal = () => {
@@ -124,6 +127,7 @@ export const Order = () => {
   const closeModal = () => {
     document.body.style.overflow = "";
     setShowModal(false);
+    navigate("/");
   };
 
   return (
@@ -269,9 +273,9 @@ export const Order = () => {
               </IconButton>
             </div>
           </div>
-          <div className="order__total">
+          {cart.length ?  <div className="order__total">
             <CartTotalContainer />
-          </div>
+          </div> : ""}
           <button type="submit" className="order-form__submit-button">
             Оформити замовлення
           </button>

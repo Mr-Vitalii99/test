@@ -1,4 +1,4 @@
-import axios from "axios";
+// import axios from "axios";
 import firebase from "../../../../utils/fb-config";
 import React, { useState, useEffect } from "react";
 import "./MainSwiper.scss";

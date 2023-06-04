@@ -129,6 +129,10 @@ export const Context = (props) => {
     );
   };
 
+  const emptyСart = () => {
+    setCart([]);
+  }
+
   const discount = 10;
 
   const totalCount = cart.reduce((acc, rec) => {
@@ -151,6 +155,7 @@ export const Context = (props) => {
     increaseProductQuantity,
     decreaseProductQuantity,
     deleteProductCard,
+    emptyСart,
     totalCount,
     totalPrice,
     orderDiscount,

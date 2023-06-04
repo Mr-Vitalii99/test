@@ -1,7 +1,7 @@
 import React from 'react';
 import './ReviewForm.scss';
 import { useForm } from "react-hook-form";
-import axios from "axios";
+// import axios from "axios";
 import firebase from "../../../../utils/fb-config";
 
 export const ReviewForm = ({ isShowReview, setIsShowReview }) => {
